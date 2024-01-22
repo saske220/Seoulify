@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seoulify</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <h1>
+          <a href="#"><img src="./images/img_logo.png" alt="Seoulify" /></a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav__list">
+            <li class="gnav__item"><a class="gnav__link" href="#">Home</a></li>
+            <li class="gnav__item">
+              <a class="gnav__link gnav__link--current" href="#">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="visual">
+        <img class="visual__pic" src="./images/bg_about.png" alt="" />
+      </div>
+
+      <section class="clothes">
+        <div class="clothes__header">
+          <div class="unit">
+            <h2 class="unit__title">Real clothes at Real prices.</h2>
+          </div>
+        </div>
+
+        <div class="clothes__body">
+          <div class="clothes__list">
+            <div class="clothes_item card">
+              <img class="card__pic" src="./images/pic_item01.png" alt="" />
+              <p class="card__category">Jackets & Coats</p>
+              <dl class="card__info">
+                <dt class="card__title">Open-front coat</dt>
+                <dd class="card__price">120.00$</dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="post">
+        <div class="post__inner">
+          <article class="post__item item01">
+            <div class="unit">
+              <p class="unit__subtitle">SEOUL FASHION</p>
+              <h3 class="unit__title">Seoulify Pro Hijab Goes Global</h3>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </article>
+          <article class="post__item item02">
+            <div class="unit">
+              <p class="unit__subtitle">SEOUL FASHION & SUMMER</p>
+              <h3 class="unit__title">
+                3 Steps To Get That Quick Summer Glow Head To Toe
+              </h3>
+              <a class="btn" href="#">Read More</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
